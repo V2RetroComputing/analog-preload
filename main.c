@@ -46,8 +46,8 @@ int main() {
     flash_range_program((FLASH_FONT(0x1e)-XIP_BASE), font_esperanto, 2048);
     flash_range_program((FLASH_FONT(0x1f)-XIP_BASE), font_videx, 2048);
     flash_range_program((FLASH_FONT_APPLE_II-XIP_BASE), font_plusb, 2048);
-    flash_range_program((FLASH_FONT_APPLE_IIE-XIP_BASE), font_reactive, 2048);
-    flash_range_program((FLASH_FONT_APPLE_IIGS-XIP_BASE), font_reactive, 2048);
+    flash_range_program((FLASH_FONT_APPLE_IIE-XIP_BASE), font_use, 2048);
+    flash_range_program((FLASH_FONT_APPLE_IIGS-XIP_BASE), font_use, 2048);
     flash_range_program((FLASH_FONT_PRAVETZ-XIP_BASE), font_cyrillic, 2048);
     flash_range_program((FLASH_FONT_EXTRA24-XIP_BASE), font_pcbold, 2048);
     flash_range_program((FLASH_FONT_EXTRA25-XIP_BASE), font_reactive, 2048);
