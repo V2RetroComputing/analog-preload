@@ -7,7 +7,7 @@ fi
 
 build_firmware() {
   if [ ! -d build ]; then
-    ( mkdir -p build && cd build && cmake ../.. )
+    ( mkdir -p build && cd build && cmake .. )
   fi
   make -C build
 }

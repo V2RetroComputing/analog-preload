@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-#include <hardware/flash.h>
-#include <hardware/dma.h>
 #include <pico/bootrom.h>
+#include <hardware/flash.h>
 #include <pico/stdlib.h>
 #include "flash.h"
 #include "fonts.h"

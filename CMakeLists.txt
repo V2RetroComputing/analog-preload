@@ -53,6 +53,7 @@ target_include_directories(v2-analog-preloader PUBLIC ${CMAKE_CURRENT_SOURCE_DIR
 target_link_libraries(v2-analog-preloader PUBLIC
     pico_multicore
     pico_stdlib
+    pico_bootrom
     hardware_flash
 )
 
